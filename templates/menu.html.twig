@@ -1,8 +1,8 @@
-<div>
-	<p>Movie Explorer</p>
+<div class="p-5 bg-gray-800 text-white flex items-center gap-10">
+	<p class="flex items-center gap-2">{{ ux_icon('lucide:clapperboard') }} Movie Explorer</p>
 	<ul  class="list-unstyled flex gap-4">
-		<li><a href="{{ path('home') }}">Accueil</a></li>
-		<li><a href="{{ path('films') }}">Films</a></li>
-		<li><a href="{{ path('contact') }}">Contact</a></li>
+		<li><a class="list-unstyled flex gap-2 items-center" href="{{ path('home') }}">{{ ux_icon('lucide:home') }} Accueil</a></li>
+		<li><a class="list-unstyled flex gap-2 items-center" href="{{ path('films') }}">{{ ux_icon('lucide:film') }} Films</a></li>
+		<li><a class="list-unstyled flex gap-2 items-center" href="{{ path('contact') }}">{{ ux_icon('lucide:user') }} Contact</a></li>
 	</ul>
 </div>
