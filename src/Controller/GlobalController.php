@@ -20,10 +20,9 @@ final class GlobalController extends AbstractController
     {
 
         $listFilm = [
-            ['id' => 1, 'title' => 'Inception', 'année' =>
-            2010],
-            ['id' => 2, 'title' => 'The Odyssey', 'année' => 2026],
+            ['id' => 1, 'title' => 'Inception', 'année' => 2010],
             ['id' => 3, 'title' => 'Interstellar', 'année' => 2014],
+            ['id' => 2, 'title' => 'The Odyssey', 'année' => 2026],
         ];
 
         return $this->render('global/films.html.twig', ['titre' => 'Liste des films', 'films' => $listFilm]);
